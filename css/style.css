@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500;600&display=swap');
+
+*, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container-home {
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+.navbar {
+    top: 0;
+    right: 0;
+    margin: 10px 43px;
+    position: fixed;
+    z-index: 11;
+    border-bottom: 2px solid black;
+    background-color:  rgba(252, 250, 250, 0.784);
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+.navbar ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.navbar ul li:hover {
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(120%);
+}
+
+.hero{
+    background-image: url(/img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -130px;
+    height: 485px;
+    width: 80%;
+    margin: 63px auto;
+    border-radius: 15px;
+}
+
+.wrapper-menu {
+    position: relative;
+    margin-left: 160px;
+    margin-top: -110px;
+}
+
+.menu-card {
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(106, 234, 251, 0.996);
+    text-align: center;
+    line-height: 85px;
+    display: inline-block;
+    margin: 0 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    text-decoration-line: none;
+}
+
+.menu-card:hover {
+    background-color: rgba(73, 194, 210, 0.996);;
+    cursor: pointer;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(110%);
+}
+
+.judul-hero {
+    text-align: center;
+    margin-top: 43px;
+    font-size: 60px;
+}
+
+.container-content {
+    width: 95%;
+    margin: auto;
+    padding: 10px;
+    height: 100vh;
+}
+
+.hero-card {
+    background-color: rgb(221, 220, 220);
+    width: 30%;
+    border-radius: 20px;
+    overflow: auto;
+    height: 98%;
+}
+
+.hero-card::-webkit-scrollbar{
+    width: 0;
+}
+
+.hero-card img {
+    width: 100%;
+    height: 350px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.content-hero {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.judul {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.isi-hero p {
+    text-align: justify;
+}
+
+.wrapper-card {
+    margin-top: 40px;
+    float: right;
+    width: 68%;
+    height: 85%;
+}
+
+.card {
+    float: left;
+    width: 250px;
+    height: 318px;
+    margin: 15px 35px;
+    overflow: auto;
+    background-color: rgb(221, 220, 220);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card::-webkit-scrollbar{
+    width: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-content {
+    position: relative;
+    margin-top: -15px;
+    padding: 15px;
+}
+
+.humor {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.footer {
+    background-color: rgb(128, 128, 128);
+    height: 200px;
+}
+
+.wrapper-footer {
+    height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 225px;
+}
+
+.foot-card {
+    float: left;
+    width: 185px;
+    margin-right: 100px;
+}
+
+.foot-card a {
+    text-decoration-line: none;
+    color: white;
+}
+
+.foot-card p {
+    color: white;
+    margin: 10px 0;
+}
+
+.judul-foot {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
